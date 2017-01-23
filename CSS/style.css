@@ -1,0 +1,46 @@
+body {
+	width: 75%;
+	background-color: #ffffff;
+	margin: 10px auto;
+}
+
+.profilePic {
+	border-radius: 50%;
+}
+
+header {
+	text-align: center;
+}
+
+ul {
+	padding: 10px 50px 10px 50px;
+	margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	padding: 10px 50px 0px 50px;
+}
+
+.myWork	{
+	width: 400px;
+	height: 200px;
+	margin: 20px;
+	background-color: #d9e5f9;
+	border: 1px solid white;
+}
+
+.wholePage {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
