@@ -1,29 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-	<title>Ebenezer Williams' Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Ebenezer Williams</title>
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- font awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/animate/animate.css" />
+    <link rel="stylesheet" href="assets/animate/set.css" />
+
+    <!-- gallery -->
+    <link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="assets/style.css">
+
 </head>
+
 <body>
-<header>
-	<img class="profilePic" src="Images/profilepicture.jpg" alt="Ebenezer's Profile Picture">
-	<h3>Ebenezer Williams</h3>
-	<h5>Full Stack Web Developer</h5>
-	<nav>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Projects</a></li> <!-- same as index file -->
-      <li><a href="#">R&eacute;sum&eacute;</a></li>
-    </ul>
-    </nav>
-</header>
-<hr>
-<div class="wholePage">
-	<div class="myWork">Project 1</div>
-	<div class="myWork">Project 2</div>
-	<div class="myWork">Project 3</div>
-	<div class="myWork">Project 4</div>
-	<div class="myWork">Project 5</div>
-</div>
+    <!-- <div class="topbar animated fadeInLeftBig"></div> -->
+
+    <!-- Header Starts -->
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Logo Starts -->
+                        <a class="navbar-brand" href="#about"><h2>Ebenezer Williams</h2></a>
+                        <!-- #Logo Ends -->
+
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+                    </div>
+
+
+                    <!-- Nav Starts -->
+                    <div class="navbar-collapse  collapse">
+                        <ul class="nav navbar-nav navbar-right scroll">
+                            <li class="active"><a href="#about">About Me</a></li>
+                            <li><a href="#works">Projects</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                            <li><a href="#partners">Download Resume</a></li>
+
+
+                        </ul>
+                    </div>
+                    <!-- #Nav Ends -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Cirlce Starts -->
+    <div id="about" class="container spacer about">
+        <h2 class="text-center wowload fadeInUp">I’m a client-focused software developer who utilizes a collaborative team approach to problem solving with a strong belief in beautiful and efficient design.</h2>
+        <div class="row">
+            <!-- <div class="col-sm-6 wowload fadeInLeft">
+                <h4><i class="fa fa-paint-brush"></i> Design</h4>
+                <p>Creative digital agency for sleek and sophisticated solutions for mobile, websites and software designs, lead by passionate and uber progressive team that lives and breathes design. Creative digital agency for sleek and sophisticated solutions
+                    for mobile, websites and software designs.</p>
+
+
+            </div> -->
+            <div class="wowload fadeInRight">
+                <h4 class="text-center"><i class="fa fa-code"></i>About Me</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                            book.</p>
+            </div>
+        </div>
+
+        <div class="process">
+            <h3 class="text-center wowload fadeInUp">Programming Skills</h3>
+            <ul class="row text-center list-inline  wowload bounceInUp">
+                <li>
+                    <span><i class="fa fa-history"></i><b>JavaScript</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-puzzle-piece"></i><b>AngularJS</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-database"></i><b>Ruby on Rails</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-magic"></i><b>ReactJS</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-magic"></i><b>HTML</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-magic"></i><b>CSS</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-magic"></i><b>MongoDB</b></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-database"></i><b>Express</b></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- #Cirlce Ends -->
+
+
+    <!-- works -->
+    <div id="works" class=" clearfix grid">
+        <figure class="effect-oscar  wowload fadeInUp">
+            <img src="images/portfolio/1.jpg" alt="img01" />
+            <figcaption>
+                <h2>Travel With Friends</h2>
+                <p>An app to connect travelers. This app was built using Ruby on Rails<br>
+                    <a href="https://travel-with-friends.herokuapp.com" title="1" target="_blank">View App</a>
+                  <a href="https://github.com/ebenezerw/TravelApp" title="1" target="_blank">View Code</a></p>
+            </figcaption>
+        </figure>
+        <figure class="effect-oscar  wowload fadeInUp">
+            <img src="images/portfolio/2.jpg" alt="img01" />
+            <figcaption>
+                <h2>Travel Trivia</h2>
+                <p>Lily likes to play with crayons and pencils<br>
+                    <a href="images/portfolio/2.jpg" title="1" data-gallery>View more</a></p>
+            </figcaption>
+        </figure>
+        <figure class="effect-oscar  wowload fadeInUp">
+            <img src="images/portfolio/3.jpg" alt="img01" />
+            <figcaption>
+                <h2>GA Connect</h2>
+                <p>An app to connect former General Assembly students<br>
+                    <a href="images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>
+            </figcaption>
+        </figure>
+        <figure class="effect-oscar  wowload fadeInUp">
+            <img src="images/portfolio/3.jpg" alt="img01" />
+            <figcaption>
+                <h2>Final Project</h2>
+                <p>An app to connect former General Assembly students<br>
+                    <a href="images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>
+            </figcaption>
+        </figure>
+    </div>
+
+    <!-- Footer Starts -->
+    <div class="footer text-center footerspacer" id="contact">
+        <p class="wowload flipInX"><a href="https://www.linkedin.com/in/ebenezerw" target="_blank"><i class="fa fa-facebook fa-2x"><img class="linkedin" src="images/1489639117_linkedin_circle_color.png" /></i></a>
+        <a href="#"><i class="fa fa-dribbble fa-2x"><img class="social" src="images/1489639005_social_media_logo_github.png" /></i></a>
+        <a href="#"><i class="fa fa-twitter fa-2x"><img class="social" src="images/1489641580_RS_Social_Media_Icons-Email.png" /></i></a> <a href="#"><i class="fa fa-linkedin fa-2x"></i></a> </p>
+        Copyright 2017 Ebenezer Williams. All rights reserved.
+    </div>
+    <!-- # Footer Ends -->
+
+
+
+
+
+    <!-- jquery -->
+    <script src="assets/jquery.js"></script>
+
+    <!-- wow script -->
+    <script src="assets/wow/wow.min.js"></script>
+
+
+    <!-- boostrap -->
+    <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+
+    <!-- jquery mobile -->
+    <script src="assets/mobile/touchSwipe.min.js"></script>
+    <script src="assets/respond/respond.js"></script>
+
+    <!-- gallery -->
+    <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+    <!-- custom script -->
+    <script src="assets/script.js"></script>
+
 </body>
+
 </html>
