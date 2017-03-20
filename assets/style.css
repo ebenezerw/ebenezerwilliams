@@ -116,7 +116,7 @@ p {
 }
 
 .navbar-default {
-    background-color: rgba(0, 0, 0, .97);
+    background-color: rgb(68,68,68);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -189,12 +189,12 @@ p {
 .process ul li {
     width: 10em;
     height: 10em;
-    border: 1px solid #CEEBF0;
+    border: 1px solid rgba(46, 204, 113,1.0);
     padding: 0;
     border-radius: 50%;
-    margin: 0 1.25em;
+    margin: 1.0em;
     line-height: 13.5em;
-    color: #21ABCA;
+    /*color: #21ABCA;*/
 }
 
 .process ul li span {
@@ -250,7 +250,7 @@ p {
 
 #works {
     padding-top: 2em;
-    background-color: rgba(231, 76, 60,1.0);
+    background-color: rgb(255,82,82);
 }
 
 #works figcaption a {
@@ -328,7 +328,7 @@ p {
 /*contact*/
 
 .footer {
-    background-color: #111;
+    background-color: #444444;
     color: #fff;
     font-size: 1em;
     color: #aaa;
