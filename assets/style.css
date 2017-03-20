@@ -32,7 +32,6 @@ h1 {
     font: 300 2.5em 'Great Vibes', cursive;
     margin-bottom: 1.5em;
 			color: white;
-
 }
 
 h2 {
@@ -370,9 +369,11 @@ p {
 }
 
 @media (max-width: 900px) {
-    h1 {
-        font: 700 3.5em Roboto, Arial, Helvetica;
-    }
+  h1 {
+      font: 300 2.1em 'Great Vibes', cursive;
+      margin-bottom: 1.5em;
+        color: white;
+  }
     h4 {
         font: 300 1.3em Roboto, Arial, Helvetica;
     }
@@ -449,7 +450,7 @@ p {
         padding-right: 2em;
     }
     .spacer {
-        padding: 2em 0 0 0;
+        padding: 3em 0 0 0;
     }
     .process ul li {
         margin-bottom: 1em;
