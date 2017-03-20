@@ -28,7 +28,7 @@ body {
 }
 
 #works {
-    margin: 0px 5px;
+    /*margin: 0px 5px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1597,19 +1597,19 @@ pre code {
 
 @media (min-width:768px) {
     .container {
-        width: 750px
+        width: 100%
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width: 970px
+        width: 100%
     }
 }
 
 @media (min-width:1200px) {
     .container {
-        width: 1170px
+        width: 100%
     }
 }
 

@@ -170,11 +170,21 @@ p {
 
 /*about*/
 
+.about {
+  background-color: rgba(236, 240, 241,1.0);
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .about.spacer {
     padding-left: 4em;
     padding-right: 4em;
     padding-bottom: 0;
 }
+
+/*.process {
+  background-color: rgba(236, 240, 241,1.0);
+}*/
 
 .process ul li {
     width: 10em;
@@ -239,7 +249,8 @@ p {
 /*works*/
 
 #works {
-    padding-top: 6em;
+    padding-top: 2em;
+    background-color: rgba(231, 76, 60,1.0);
 }
 
 #works figcaption a {
