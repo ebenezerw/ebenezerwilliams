@@ -250,7 +250,7 @@ p {
 
 #works {
     padding-top: 2em;
-    background-color: rgb(255,82,82);
+    background-color: rgba(189, 195, 199,1.0);
 }
 
 #works figcaption a {
