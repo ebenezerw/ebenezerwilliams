@@ -409,6 +409,7 @@ p {
     .process ul li {
         width: 9em;
         height: 9em;
+        margin: 1em;
     }
     figure.effect-chico figcaption {
         padding: 2em;
@@ -428,7 +429,7 @@ p {
     }
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     body {
         font: 300 12px/12px Roboto, Arial, Helvetica;
     }
@@ -491,4 +492,4 @@ p {
         margin-top: 2em;
         padding-bottom: 2em;
     }
-}
+}*/
