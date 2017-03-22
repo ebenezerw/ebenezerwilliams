@@ -481,7 +481,7 @@ p {
         padding-bottom: 2em;
     }
     .grid.team div {
-        margin: 0;
+        margin-top: 10px;
         padding: 0;
     }
     figure.effect-chico figcaption {

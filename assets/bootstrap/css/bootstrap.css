@@ -32,15 +32,6 @@ audio:not([controls]) {
   height: 0;
 }
 
-#works {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
-}
-
-
 [hidden],
 template {
   display: none;
