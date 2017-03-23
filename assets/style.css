@@ -1,7 +1,7 @@
 body {
     color: #666;
-    font: 300 15px/15px Roboto, Arial, Helvetica;
-    background-color: #fff;
+    /*font: 300 15px/15px Roboto, Arial, Helvetica;*/
+    background-color: rgba(236, 240, 241,1.0);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -43,6 +43,10 @@ h2 {
 h3 {
     font: 300 2em Roboto, Arial, Helvetica;
     margin: 1em 0 1em 0;
+}
+
+.titles {
+  font-weight: bold;
 }
 
 h4 {
@@ -116,7 +120,7 @@ p {
 }
 
 .navbar-default {
-    background-color: rgb(68,68,68);
+    background-color: #111;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -170,10 +174,11 @@ p {
 .profilepic {
     width: 12em;
     height: 12em;
-    border: 2px solid white;
+    border: 3px white;
     padding: 0;
     border-radius: 50%;
     margin: 1.0em 1em 0em 1em;
+    border-style: solid;
     /*position: relative;
     left: 50%;*/
 }
@@ -260,8 +265,8 @@ p {
 /*works*/
 
 #works {
-    padding-top: 2em;
-    background-color: rgba(189, 195, 199,1.0);
+    /*padding-top: 2em;*/
+    background-color: rgba(236, 240, 241,1.0);
 }
 
 #works figcaption a {
@@ -493,3 +498,145 @@ p {
         padding-bottom: 2em;
     }
 }*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.timeline ul {
+  background: rgba(236, 240, 241,1.0);
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #F45B69;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
