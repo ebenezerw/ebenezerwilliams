@@ -35,13 +35,13 @@ h1 {
 }
 
 h2 {
-    font: 300 2.5em Roboto, Arial, Helvetica;
+    font: 300 2.5em 'Open Sans', sans-serif;
     margin-bottom: 1.5em;
     color: white;
 }
 
 h3 {
-    font: 300 2em Roboto, Arial, Helvetica;
+    font: 300 2em 'Open Sans', sans-serif;
     margin: 1em 0 1em 0;
 }
 
@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-    font: 300 1.5em Roboto, Arial, Helvetica;
+    font: 300 1.5em 'Open Sans', sans-serif;
     margin-bottom: 1em;
 }
 
@@ -120,7 +120,7 @@ p {
 }
 
 .navbar-default {
-    background-color: #111;
+    background-color: rgba(68,68,68, .98);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -206,7 +206,7 @@ p {
 .process ul li {
     width: 10em;
     height: 10em;
-    /*border: 1px solid rgba(230, 126, 34, 1.0);*/
+    border: 1px solid rgb(0,81,146);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 0;
     border-radius: 50%;
@@ -232,43 +232,15 @@ p {
 }
 
 
-/*testimonials*/
-
-.partners img {
-    float: left;
-    margin: 0 75px 30px 0;
-}
-
-.testimonails {
-    min-height: 195px;
-}
-
-.testimonails img {
-    margin-top: 5px;
-}
-
-.testimonails span {
-    color: #888;
-}
-
-.testimonails span b {
-    font-weight: 400;
-}
-
-.carousel-indicators li {
-    border: 1px solid #2BB2E3;
-}
-
-.carousel-indicators {
-    bottom: 0;
-}
-
 
 /*works*/
 
+
+
 #works {
-    /*padding-top: 2em;*/
-    background-color: rgba(236, 240, 241, 1.0);
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: rgb(176,194,204);
 }
 
 #works figcaption a {
@@ -291,63 +263,6 @@ figure {
 /*works*/
 
 
-/*team*/
-
-.team figure {
-    width: 100%;
-}
-
-.team img {
-    width: 100%;
-}
-
-.team b {
-    font-size: 1.2em;
-    display: block;
-}
-
-.team a i.fa {
-    color: #fff;
-    font-size: 2em;
-}
-
-.team a i.fa:hover {
-    color: #21abca;
-}
-
-.highlight-info {
-    background: url(../images/lab.jpg) center fixed;
-    background-size: cover;
-    color: #fff;
-}
-
-.highlight-info .overlay {
-    background: rgba(33, 171, 202, 0.5);
-}
-
-.highlight-info h4 {
-    color: #fff;
-    margin: 0.5em 0 0 0;
-}
-
-
-/*about us*/
-
-
-/*contact*/
-
-.contactform textarea, .contactform input {
-    width: 100%;
-    padding: 1em;
-    border: 1px solid #ccc;
-    margin-bottom: 1em;
-    border-radius: 0;
-    outline: none;
-}
-
-
-/*contact*/
-
 .footer {
     background-color: #444444;
     color: #fff;
@@ -360,20 +275,7 @@ figure {
     margin: 0 1em;
 }
 
-.gototop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    color: #fff;
-}
-
-.gototop i {
-    line-height: 0.5em;
-}
-
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
     body {
         font: 300 13px/13px Roboto, Arial, Helvetica;
     }
@@ -398,8 +300,8 @@ figure {
     .partners img {
         margin: 0 25px 25px 0;
     }
-}
-
+}*/
+/*
 @media (max-width: 900px) {
     h1 {
         font: 300 2.1em 'Great Vibes', cursive;
@@ -437,7 +339,7 @@ figure {
         font-size: 0.6em;
         line-height: 1.5em;
     }
-}
+}*/
 
 
 /*@media (max-width: 767px) {
