@@ -1,7 +1,7 @@
 body {
     color: #666;
     /*font: 300 15px/15px Roboto, Arial, Helvetica;*/
-    background-color: rgba(236, 240, 241, 1.0);
+    background-color: rgb(236, 240, 241);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -12,6 +12,10 @@ a {
 
 a:hover {
     color: #666;
+}
+
+hr {
+  color: black;
 }
 
 .btn, a, .btn:hover, a:hover {
@@ -187,7 +191,7 @@ p {
 /*about*/
 
 .about {
-    background-color: rgba(236, 240, 241, 1.0);
+    background-color: rgb(236, 240, 241);
     margin-left: 0;
     margin-right: 0;
 }
@@ -241,7 +245,7 @@ p {
 #works {
     padding-top: 6em;
     padding-bottom: 6em;
-    background-color: rgb(176,194,204);
+    background-color: rgb(30,139,195);
 }
 
 #works figcaption a {
@@ -414,18 +418,22 @@ figure {
     box-sizing: border-box;
 }
 
+/*section backgrond*/
+
 .timeline ul {
-    background: rgba(236, 240, 241,1.0);
+    background: rgb(236, 240, 241);
     padding: 50px 0;
 }
 
+/*line*/
 .timeline ul li {
     list-style-type: none;
     position: relative;
-    width: 6px;
+    width: 2px;
     margin: 0 auto;
     padding-top: 50px;
-    background: #fff;
+    background: white;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .timeline ul li::after {
@@ -434,49 +442,50 @@ figure {
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    width: 30px;
+    width: 5px;
     height: 30px;
-    border-radius: 50%;
-    background: rgba(189, 195, 199,1.0);
+    /*border-radius: 50%;*/
+    background: rgb(255,211,78);
 }
 
+/*box for each employment lsting*/
 .timeline ul li div {
     position: relative;
     bottom: 0;
     width: 400px;
     padding: 15px;
-    background: rgba(189, 195, 199,1.0);
+    background: rgba(255, 255, 255,.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.timeline ul li div::before {
+/*.timeline ul li div::before {
     content: '';
     position: absolute;
     bottom: 7px;
     width: 0;
     height: 0;
     border-style: solid;
-}
+}*/
 
 .timeline ul li:nth-child(odd) div {
-    left: 45px;
+    left: 4px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
+/*.timeline ul li:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent rgba(189, 195, 199,1.0) transparent transparent;
-}
+    border-color: transparent rgba(255, 255, 255,.5) transparent transparent;
+}*/
 
 .timeline ul li:nth-child(even) div {
-    left: -439px;
+    left: -400px;
 }
 
-.timeline ul li:nth-child(even) div::before {
+/*.timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent rgba(189, 195, 199,1.0);
-}
+    border-color: transparent transparent transparent rgba(255, 255, 255,.5);
+}*/
 
 time {
     display: block;
@@ -493,9 +502,10 @@ time {
     transition: background .5s ease-in-out;
 }
 
-.timeline ul li.in-view::after {
-    background: #F45B69;
-}
+/*anchor for each employemn*/
+/*.timeline ul li.in-view::after {
+    background: rgb(255,211,78);
+}*/
 
 .timeline ul li div {
     visibility: hidden;
@@ -504,11 +514,11 @@ time {
 }
 
 .timeline ul li:nth-child(odd) div {
-    transform: translate3d(200px, 0, 0);
+    transform: translate3d(500px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
-    transform: translate3d(-200px, 0, 0);
+    transform: translate3d(-500px, 0, 0);
 }
 
 .timeline ul li.in-view div {
