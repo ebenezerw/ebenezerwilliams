@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     font: 300 2em 'Open Sans', sans-serif;
-    margin: 1em 0 1em 0;
+    margin: .5em 0 .5em 0;
 }
 
 .titles {
@@ -265,7 +265,13 @@ figure {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 /*works*/
+
+#resume{
+  padding-top: 5em;
+  padding-bottom: 4em;
+}
 
 
 .footer {
@@ -280,7 +286,7 @@ figure {
     margin: 0 1em;
 }
 
-/*@media (max-width: 1200px) {
+@media (max-width: 1200px) {
     body {
         font: 300 13px/13px Roboto, Arial, Helvetica;
     }
@@ -305,8 +311,8 @@ figure {
     .partners img {
         margin: 0 25px 25px 0;
     }
-}*/
-/*
+}
+
 @media (max-width: 900px) {
     h1 {
         font: 300 2.1em 'Great Vibes', cursive;
@@ -344,10 +350,10 @@ figure {
         font-size: 0.6em;
         line-height: 1.5em;
     }
-}*/
+}
 
 
-/*@media (max-width: 767px) {
+@media (max-width: 767px) {
     body {
         font: 300 12px/12px Roboto, Arial, Helvetica;
     }
@@ -410,7 +416,7 @@ figure {
         margin-top: 2em;
         padding-bottom: 2em;
     }
-}*/
+}
 
 *, *::before, *::after {
     margin: 0;
@@ -431,7 +437,6 @@ figure {
     position: relative;
     width: 2px;
     margin: 0 auto;
-    padding-top: 50px;
     background: white;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
@@ -450,10 +455,11 @@ figure {
 
 /*box for each employment lsting*/
 .timeline ul li div {
+  /*margin-top: 50px;*/
     position: relative;
     bottom: 0;
     width: 400px;
-    padding: 15px;
+    padding: 10px;
     background: rgba(255, 255, 255,.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -478,7 +484,7 @@ figure {
 }*/
 
 .timeline ul li:nth-child(even) div {
-    left: -400px;
+    left: -402px;
 }
 
 /*.timeline ul li:nth-child(even) div::before {
@@ -514,11 +520,11 @@ time {
 }
 
 .timeline ul li:nth-child(odd) div {
-    transform: translate3d(500px, 0, 0);
+    transform: translate3d(300px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
-    transform: translate3d(-500px, 0, 0);
+    transform: translate3d(-300px, 0, 0);
 }
 
 .timeline ul li.in-view div {
@@ -544,12 +550,14 @@ time {
 @media screen and (max-width: 600px) {
     .timeline ul li {
         margin-left: 20px;
+        padding-top: 15px;
     }
     .timeline ul li div {
         width: calc(100vw - 91px);
     }
     .timeline ul li:nth-child(even) div {
-        left: 45px;
+      /*margin-top: 10px;*/
+        left: 3px;
     }
     .timeline ul li:nth-child(even) div::before {
         left: -15px;
