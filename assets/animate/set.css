@@ -14,6 +14,7 @@
 	width: 40%;
 	text-align: center;
 	cursor: pointer;
+	border-radius: 1%;
 
 }
 
@@ -2268,7 +2269,7 @@ figure.effect-duke h3 {
 	transform: scale3d(0.8,0.8,1);
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
-	background-color: rgba(255, 0, 0, 0.7);
+	background-color: rgba(255, 75, 70, 0.8);
 }
 
 figure.effect-duke p {
@@ -2296,10 +2297,10 @@ figure.effect-duke:hover p {
 }
 
 figure.effect-duke:hover h3{
-	background-color: rgba(255, 0, 0, 0.5);
+	background-color: rgba(255, 75, 70, 0.5);
 }
 
-@media screen and (max-width: 50em) {
+/*@media screen and (max-width: 50em) {
 	.content {
 		padding: 0 10px;
 		text-align: center;
@@ -2312,4 +2313,15 @@ figure.effect-duke:hover h3{
 
 @media (max-width: 639px) {
 	.grid figure {width: 100%;}
+}*/
+
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
 }

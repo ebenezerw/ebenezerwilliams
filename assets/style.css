@@ -51,6 +51,8 @@ h3 {
 
 .titles {
     font-weight: bold;
+    background-color: rgba(255, 75, 70, 0.7);
+    color: white;
 }
 
 h4 {
@@ -216,7 +218,7 @@ p {
     /*border: 1px solid rgb(0,81,146);*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 0;
-    border-radius: 5%;
+    border-radius: 1%;
     margin: 1.0em;
     line-height: 13.5em;
     font-size: 15px;
@@ -412,8 +414,8 @@ figure {
         margin-top: 10px;
         padding: 0;
     }
-    figure.effect-chico figcaption {
-        padding: 1.5em;
+    figure.effect-duke figcaption {
+        padding: .7em;
     }
     .footer {
         margin-top: 2em;
@@ -452,8 +454,9 @@ figure {
     transform: translateX(-50%);
     width: 5px;
     height: 30px;
-    /*border-radius: 50%;*/
-    background: rgb(255,211,78);
+    border-radius: 1%;
+    /*background: rgb(255,211,78);*/
+    background-color: rgba(255, 75, 70, 0.9);
 }
 
 /*box for each employment lsting*/
@@ -465,6 +468,7 @@ figure {
     padding: 10px;
     background: rgba(255, 255, 255,.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1%;
 }
 
 /*.timeline ul li div::before {
@@ -560,7 +564,10 @@ time {
     }
     .timeline ul li:nth-child(even) div {
       /*margin-top: 10px;*/
-        left: 3px;
+        left: 4px;
+    }
+    .timeline ul li::after{
+      border-radius: 1px;
     }
     .timeline ul li:nth-child(even) div::before {
         left: -15px;
