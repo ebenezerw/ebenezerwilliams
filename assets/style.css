@@ -248,7 +248,7 @@ p {
 #works {
     padding-top: 6em;
     padding-bottom: 6em;
-    background-color: rgb(30,139,195);
+    background-color: rgba(215,204,200,1);
 }
 
 #works figcaption a {
@@ -523,7 +523,7 @@ time {
 }
 
 .timeline ul li:nth-child(odd) div {
-    transform: translate3d(300px, 0, 0);
+    transform: translate3d(500px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
