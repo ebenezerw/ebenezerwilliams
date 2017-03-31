@@ -294,7 +294,7 @@ figure {
 
 @media (max-width: 1200px) {
     body {
-        font: 300 13px/13px Roboto, Arial, Helvetica;
+        font: 300 13px/13px 'Open Sans', sans-serif;
     }
     .navbar-brand {
         padding-top: 11px;
@@ -303,7 +303,7 @@ figure {
         margin: 0 0.5em;
     }
     .grid figure h2 {
-        font: 700 1.5em Roboto, Arial, Helvetica;
+        font: 700 1.5em 'Open Sans', sans-serif;
     }
     figure.effect-oscar figcaption {
         padding: 12%;
@@ -321,12 +321,12 @@ figure {
 
 @media (max-width: 900px) {
     h1 {
-        font: 300 2.1em 'Great Vibes', cursive;
+        font: 300 2.1em 'Open Sans', sans-serif;
         margin-bottom: 1.5em;
         color: white;
     }
     h4 {
-        font: 300 1.3em Roboto, Arial, Helvetica;
+        font: 300 1.3em 'Open Sans', sans-serif;
     }
     .btn {
         padding: 1em 2em;
@@ -361,7 +361,7 @@ figure {
 
 @media (max-width: 767px) {
     body {
-        font: 300 12px/12px Roboto, Arial, Helvetica;
+        font: 300 12px/12px 'Open Sans', sans-serif;
     }
     .navbar-nav>li>a {
         line-height: 1em;
@@ -383,7 +383,7 @@ figure {
         font-size: 1.7em;
     }
     h4 {
-        font: 300 1.2em Roboto, Arial, Helvetica;
+        font: 300 1.2em 'Open Sans', sans-serif;
     }
     #partners h2 {
         padding: 0 1em;
