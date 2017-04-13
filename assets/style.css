@@ -1,6 +1,5 @@
 body {
     color: #666;
-    /*font: 300 15px/15px Roboto, Arial, Helvetica;*/
     background-color: rgb(236, 240, 241);
     -webkit-font-smoothing: antialiased;
 }
@@ -33,7 +32,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font: 300 2.5em 'Open Sans', sans-serif;
+    font: 300 2em 'Open Sans', sans-serif;
     margin-bottom: 1.5em;
     color: white;
 }
@@ -45,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font: 300 2em 'Open Sans', sans-serif;
+    font: 300 1.5em 'Open Sans', sans-serif;
     margin: .5em 0 .5em 0;
 }
 
