@@ -48,6 +48,9 @@ h3 {
     margin: .5em 0 .5em 0;
 }
 
+.jobTitle{
+    font-weight: bold;
+}
 .titles {
     font-weight: bold;
     background-color: rgba(255, 75, 70, 0.7);
