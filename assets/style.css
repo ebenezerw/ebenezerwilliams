@@ -58,8 +58,8 @@ h3 {
 }
 
 h4 {
-    font: 300 1.5em 'Open Sans', sans-serif;
-    margin-bottom: 1em;
+    font: 700 1.2em 'Open Sans', sans-serif;
+    /*margin-bottom: 1em;*/
 }
 
 h4 i {
@@ -267,6 +267,12 @@ p {
 #works figcaption a:hover {
     text-decoration: none;
     padding: 0 3em;
+}
+
+#works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 figure {

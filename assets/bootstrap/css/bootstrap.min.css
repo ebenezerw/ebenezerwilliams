@@ -27,13 +27,7 @@ body {
   height: 65px;
 }
 
-#works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
-    padding: 0;
-}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block
