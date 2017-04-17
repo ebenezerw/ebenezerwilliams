@@ -308,7 +308,7 @@ figure {
         padding-top: 11px;
     }
     .process ul li {
-        margin: 0 0.5em;
+        margin: 1em;
     }
     .grid figure h2 {
         font: 700 1.5em 'Open Sans', sans-serif;
@@ -411,7 +411,7 @@ figure {
         padding-right: 2em;
     }
     .spacer {
-        padding: 3em 0 0 0;
+        padding: 6em 0 0 0;
     }
     .process ul li {
         margin-bottom: 1em;
@@ -558,7 +558,7 @@ time {
         width: 250px;
     }
     .timeline ul li:nth-child(even) div {
-        left: -289px;
+        left: -252px;
         /*250+45-6*/
     }
 }

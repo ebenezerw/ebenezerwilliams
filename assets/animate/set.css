@@ -2269,14 +2269,16 @@ figure.effect-duke h3 {
 	transform: scale3d(0.8,0.8,1);
 	-webkit-transform-origin: 50% 100%;
 	transform-origin: 50% 100%;
-	background-color: rgba(255, 75, 70, 0.8);
+	/*background-color: rgba(255, 75, 70, 0.8);*/
+	color: white;
+	font-weight: 700;
 }
 
 figure.effect-duke p {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	margin: 20px;
+	margin: 55px;
 	padding: 30px;
 	border: 2px solid #fff;
 	text-transform: none;
@@ -2297,7 +2299,9 @@ figure.effect-duke:hover p {
 }
 
 figure.effect-duke:hover h3{
-	background-color: rgba(255, 75, 70, 0.5);
+	/*background-color: rgba(255, 75, 70, 0.5);*/
+	color: white;
+	font-weight: 700;
 }
 
 /*@media screen and (max-width: 50em) {
