@@ -266,7 +266,7 @@ p {
 
 #works figcaption a:hover {
     text-decoration: none;
-    padding: 0 3em;
+    padding: 0 2.5em;
 }
 
 #works {
@@ -314,7 +314,7 @@ figure {
         font: 700 1.5em 'Open Sans', sans-serif;
     }
     figure.effect-oscar figcaption {
-        padding: 12%;
+        padding: 10%;
     }
     figure.effect-oscar figcaption::before, figure.effect-chico figcaption::before {
         top: 20px;
