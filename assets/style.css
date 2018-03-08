@@ -4,6 +4,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
+.awayMessage {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-color: white;
+    padding-left: 10px;
+}
+
 a {
     color: #00a9c6
     text-decoration: none;
@@ -32,9 +44,10 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font: 300 2em 'Open Sans', sans-serif;
+    font: 300 5em 'Open Sans', sans-serif;
     margin-bottom: 1.5em;
     color: white;
+    /* margin: auto; */
 }
 
 h2 {
