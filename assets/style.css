@@ -1,6 +1,7 @@
 body {
-    color: #666;
-    background-color: rgb(236, 240, 241);
+    /* color: #666; */
+    /* background-color: rgb(236, 240, 241); */
+    background-color: #111;
     -webkit-font-smoothing: antialiased;
 }
 
